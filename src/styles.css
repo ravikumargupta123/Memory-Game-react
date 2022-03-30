@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  place-content: center;
+}
+
+img {
+  transition: all 0.4s;
+}
+
+.card-outer.flipped img {
+  transform: rotateY(180deg);
+}
